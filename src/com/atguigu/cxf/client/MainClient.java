@@ -8,5 +8,6 @@ public class MainClient {
 	public static void main(String[] args) {
 		HelloWorld helloWorld = new HelloWorldImplService().getHelloWorldImplPort();
 		helloWorld.info("小明", "男");
+		system.out.println("11111");
 	}
 }
